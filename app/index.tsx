@@ -1,11 +1,15 @@
 import { Text, View } from "react-native";
+import { AppScreen } from "../components/AppScreen";
 
 export default function Index() {
   return (
-   <View className="flex-1 items-center justify-center bg-white">
-      <Text className="text-xl font-bold text-blue-500">
-        Welcome to Nativewind!
-      </Text>
-    </View>
+    <AppScreen title="Home">
+        <View className="flex-1 items-center justify-center bg-yellow-200">
+        <Text className="text-xl font-bold text-green-600">
+          Welcome to Nativewind!
+        </Text>
+      </View>
+    </AppScreen>
+   
   );
 }
