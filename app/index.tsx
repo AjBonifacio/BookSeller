@@ -6,7 +6,7 @@ export default function Index() {
     <AppScreen title="Home">
         <View className="flex-1 items-center justify-center bg-yellow-200">
         <Text className="text-xl font-bold text-green-600">
-          Welcome to Nativewind!
+          Welcome to the Home Screen!
         </Text>
       </View>
     </AppScreen>
