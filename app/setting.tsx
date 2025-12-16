@@ -1,6 +1,7 @@
 import { Text, View } from "react-native";
 import { AppScreen } from "../components/AppScreen";
 
+
 export default function setting ( ) {
 
 
